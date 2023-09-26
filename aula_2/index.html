@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+
+        <div id="textos">
+            <div class="listas">
+                <h2>
+                    Lista Ordenada
+                    <ol type="I">
+                        <!-- type = '1, a, A, i, I' -->
+                        <script src="repetir_lista.js"></script>
+                    </ol>
+                </h2>
+                <h2>
+                    Lista Não ordenada
+                    <ul type="disc">
+                        <!-- type = 'circle, square, disc' -->
+                        <script src="repetir_lista.js"></script>
+                    </ul>
+                </h2>
+                <h2>
+                    Tabela Nomes
+                    <table border="2">
+                        <tr>
+                            <td><strong>RA</strong></td>
+                            <td><strong>Aluno</strong></td>
+                            <td><strong>Idade</strong></td>
+                        </tr>
+                        <script src="repetir_tabela_pessoas.js"></script>
+                    </table>
+                </h2>
+                <h2>
+                    Tabela Organizada
+                    <table border="2" id="tabela">
+                        <thead>
+                            <tr>
+                                <td>Código</td>
+                                <td>Produto</td>
+                                <td>Valor</td>
+                            </tr>
+                        </thead>
+                        <script src="repetir_tabela_produtos.js"></script>
+                        <tfoot>
+                            <td colspan="2">Total</td>
+                            <td class="total">EM BREVE</td>
+                        </tfoot>
+                    </table>
+                </h2>
+            </div>
+            <form>
+                <button class="mamar">Mostrar imagem</button>
+            </form>
+        </div>
+
+        <div id="imagem" class="hidden">
+            <img src="https://i0.statig.com.br/bancodeimagens/2f/ym/i8/2fymi85z5vo5pcl5rsnsr3xgi.jpg">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,8 +1,8 @@
 /* Estilos para o contêiner da barra de busca */
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #000000;
-    color: #00ff22;
+    background-color: #1a1b26;
+    color: #9eecff;
     padding: 20px;
 }
 
@@ -13,7 +13,7 @@ body {
 
 .text-container p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #00ff22;
+    color: #9eecff;
     margin-bottom: 10px;
 }
 
@@ -32,8 +32,8 @@ body {
 .custom-button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #00ff22;
-    color: #000000;
+    background-color: #9c89e0;
+    color: #9eecff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -41,7 +41,7 @@ body {
 }
 
 .custom-button:hover {
-    background-color: #0b7219;
+    background-color: #6246ff;
 }
 
 .custom-link {
@@ -51,9 +51,10 @@ body {
 }
 
 .custom-link:hover {
+    border-radius: 8px;
     color: #0056b3;
 }
 
-.linha-verde {
-    color: #00ff22
+.linha-hr {
+    color: #9eecff;
 }
