@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Olá, eu sou o Daniel!</h1>
+        <p class="lead">Sou desenvolvedor web, com foco no back-end</p>
+        <hr class="linha-hr">
+        <p>Você pode entrar em contato comigo através de um email, o qual você poderá enviar logo abaixo :)</p>
+        <p>
+            <a href="./index.html"><button class="btn custom-btn">Voltar ao início</button></a>
+        </p>
+    </div>
+    <p>
+        <strong>Nome:</strong> Carlos Wilton<br>
+        <strong>E-mail:</strong> daniel.f.morais@aluno.al.sesi.com.br
+    </p>
+    <form action="mailto:daniel.f.morais@aluno.al.sesi.com.br" method="post">
+        <label for="nome">Nome:</label><br>
+        <input class="form-control" type="text" id="nome" placeholder="Nome" required><br>
+        <label for="email">Email:</label><br>
+        <input class="form-control" type="email" id="email" placeholder="Envie.Seu@Email.com.br" required><br>
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea class="form-control" name="mensagem" id="mensagem" cols="25" rows="5"
+            placeholder="Digite aqui sua mensagem..." required></textarea><br>
+        <button class="btn custom-btn" type="submit" value="Enviar">Enviar email</button>
+    </form>
+
+
+</body>
+
+</html>

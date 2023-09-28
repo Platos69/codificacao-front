@@ -1,47 +1,9 @@
 /* Estilos para o contêiner da barra de busca */
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #1a1b26;
     color: #9eecff;
     padding: 20px;
-}
-
-/* styles.css */
-.text-container {
-    text-align: left;
-}
-
-.text-container p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #9eecff;
-    margin-bottom: 10px;
-}
-
-.text-container input {
-    padding: 10px;
-    font-size: 16px;
-    border: 2px solid #00000000;
-    border-radius: 5px;
-}
-
-.error-message {
-    color: red;
-    display: none;
-}
-
-.custom-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #9c89e0;
-    color: #9eecff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.custom-button:hover {
-    background-color: #6246ff;
 }
 
 .custom-link {
@@ -56,5 +18,34 @@ body {
 }
 
 .linha-hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #9eecff;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.custom-btn {
+    background-color: rgb(155, 120, 252);
+    /* Initial background color */
     color: #9eecff;
+    /* Text color */
+    border: 1px solid #895eff;
+    /* Initial border */
+}
+
+.custom-btn:focus,
+.custom-btn:active,
+.custom-btn:hover {
+    background-color: #895eff;
+    /* New background color on click, focus, or hover */
+    color: #9eecff;
+    /* New text color on click, focus, or hover */
+    border: 1px solid #895eff;
+    /* New border on click, focus, or hover */
+}
+
+.jumbotron {
+    background-color: #1e1f30;
 }
