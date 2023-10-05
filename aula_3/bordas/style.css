@@ -1,0 +1,39 @@
+.box1 {
+    border-top-width: 5px;
+    border-right-width: 2px;
+    border-bottom-width: 10px;
+    border-left-width: 8px;
+
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: dashed;
+    border-left-style: solid;
+
+    border-top-color: red;
+    border-right-color: blue;
+    border-bottom-color: green;
+    border-left-color: aqua;
+
+}
+
+.box2 {
+    border-width: 5px 2px 10px 8px;
+    border-width: 5px 2px 10px; /*Todos os lados laterais serão iguais*/
+    border-width: 5px 2px; /*Os lados de cima e baixo serão iguais e os lados laterais serão iguais*/
+    border-width: 5px; /*Todos os lados iguais*/
+
+    border-style: double dashed dotted solid;1
+    border-style: double dashed dotted;
+    border-style: double dashed;
+    border-style: double;
+
+    border-color: red blue green aqua;
+    border-color: red blue green;
+    border-color: red blue;
+    border-color: red;
+}
+
+.box3 {
+    border-bottom: 8px dashed pink;
+    border: 10px double tomato;
+}

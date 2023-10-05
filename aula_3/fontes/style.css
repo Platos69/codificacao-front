@@ -1,0 +1,49 @@
+* body {
+    background-color: #011126;
+    color: #9eecff;
+ }
+
+.families {
+    padding: 3rem;
+}
+
+#navbar-example2 {
+    background-color: #011C40;
+}
+
+#font-navbar {
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+#button-menu-nav {
+    background-color: #08678C;
+    color: #9eecff;
+    border: 1px solid #08678C;
+    cursor: pointer;
+}
+
+#button-menu-nav:focus,
+#button-menu-nav:active,
+#button-menu-nav:hover {
+    background-color: #074973;
+    color: #fff;
+    border: 1px solid #074973;
+}
+
+#button-menu-nav::-webkit-outer-spin-button,
+#button-menu-nav::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+#button-menu-nav:focus {
+  outline: none;
+}
+
+#dropdown-menu-list-item {
+    background-color: #011C40;
+}
+
+.dropdown-item {
+    color: #9eecff;
+}
