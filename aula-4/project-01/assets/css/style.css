@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 210px;
+    height: 400px;
+}
+
+.hero-left {
+    width: 50%;
+    height: 100%;
+    background: url(../imgs/image-product-desktop.jpg);
+    background-size: cover;
+}
+
+.hero-right {
+    width: 50%;
+    height: 100%;
+    margin: 15px;
+}
+
+.hero-right .hero-content {
+    margin: 15px 0;
+}
+
+.hero-content .type-product { 
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.hero-content .title-product {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.hero-content .description-product {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.hero-content .value-product {
+    display: flex;
+}
+
+.value-product .actual-value {
+    font-size: 30px;
+}
+
+.value-product .old-value {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
